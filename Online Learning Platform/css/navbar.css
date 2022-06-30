@@ -1,0 +1,57 @@
+s
+.up{
+    background: #ff0c0c;
+    margin: 0px 16px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.logo{
+    width: 217px;
+    position: relative;
+    left: 79px;
+    top: 9px;
+}
+.login {
+    position: absolute;
+    right: 44px;
+    top: 27px;
+    background-color: lightblue;
+    border-radius: 9px;
+    padding: 5px 7px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: initial;
+    cursor: pointer;
+}
+.login:hover{
+
+    background-color:rgb(113, 177, 199);
+}
+.login:active {
+  background-color: rgb(51, 144, 175);
+  box-shadow: 0 5px rgb(15, 99, 128);
+  transform: translateY(4px);
+}
+
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 0px 73px;
+    position: relative;
+    left: 333px;
+    top: -33px;
+    
+}
+nav ul li a{
+    font-family: 'Arvo', serif;
+    color: white;
+    font-size: 21px;
+    
+
+}
+nav ul li a:hover{
+    color: rgb(97, 59, 59);
+  
+}

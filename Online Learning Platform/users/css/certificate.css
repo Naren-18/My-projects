@@ -1,0 +1,61 @@
+#certificate{
+    color: brown;
+    background: azure;
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+body{
+    margin:0px 0px;
+}
+.back{
+position: absolute;
+width: 100%;
+opacity: .8;
+height: 1384px;
+z-index:-1;
+}
+
+.logo{
+    width: 217px;
+    position: relative;
+    left: 79px;
+    top: 9px;
+}
+button{
+    position: relative;
+    float: right;
+    left: -35px;
+    top: -30px;
+    background: black;
+    font-size: 16px;
+}
+button a{
+    text-decoration:none;
+    color: wheat;
+    font-family: emoji;
+    font-weight: bold;
+}
+nav ul{
+    position: absolute;
+    left: -271px;
+    top: 177px;
+}
+nav ul li{
+padding: 23px 21px;
+position: relative;
+left: 333px;
+top: -33px;
+
+list-style:none;
+}
+nav ul li a{
+font-family: 'Arvo', serif;
+font-size: 19px;
+color: rgb(0, 0, 0);
+text-decoration:none;
+
+}
+nav ul li a:hover{
+color: rgb(255, 255, 255);
+
+}

@@ -1,0 +1,209 @@
+body{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.back{
+    position: absolute;
+    width: 100%;
+    opacity: .8;
+    height:833px;
+}
+
+.logo{
+    width: 217px;
+    position: relative;
+    left: 79px;
+    top: 9px;
+}
+
+
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 0px 21px;
+    position: relative;
+    left: 333px;
+    top: -33px;
+}
+nav ul li a{
+    font-family: 'Arvo', serif;
+    font-size: 19px;
+    color: lightblue;
+    
+
+}
+nav ul li a:hover{
+    color: rgb(97, 59, 59);
+  
+}
+
+
+.pop{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    cursor: pointer;
+    display: flex;
+}
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .login{
+    position: absolute;
+    right: 10px;
+    top: 47px;
+    background-color: lightblue;
+    border-radius: 9px;
+    padding: 5px 7px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: initial;
+    cursor: pointer;
+  }
+  .login:hover{
+
+      background-color:rgb(113, 177, 199);
+  }
+  .login:active {
+    background-color: rgb(51, 144, 175);
+    box-shadow: 0 5px rgb(15, 99, 128);
+    transform: translateY(4px);
+  }
+
+
+  .icon{
+      position: relative;
+      top: 20px;
+  }
+
+
+h4{
+    position: relative;
+    top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .foot {
+    /* border: 2px solid black; */
+    display: flex;
+    margin: 0px 13px;
+    padding: 0px 0px;
+    display: none;
+}
+
+.contactus h2 {
+    font-size: 23px;
+    font-weight: bold;
+    margin: 0px 0px;
+    position: relative;
+    left: -52px;
+    top: -60px;
+    font-family: cursive;
+    color: aliceblue;
+}
+
+.contactus {
+    margin: 0px 0px;
+    padding: 62px 136px;
+    height: 213px;
+    width: 4px;
+    position: fixed;
+    bottom: -11px;
+}
+
+.contactus form input {
+    text-align: center;
+    position: relative;
+    margin: 7px 0px;
+    padding: 3px 0px;
+    border-radius: 5px;
+    left: -189px;
+    top: -41px;
+}
+
+.contactus  button{
+    position: relative;
+    left: -127px;
+    top: -44px;
+    background-color: black;
+    color: blanchedalmond;
+    padding: 4px 4px;
+    cursor: pointer;
+}
+
+.contactus  button:hover{
+    background-color: gray;
+}
+
+.con_back{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 202px;
+    width: 244px;
+}
+  
+#close{
+    font-size: 49px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    left: 217px;
+    transform: rotate(45deg);
+    top: -8px;
+}
+#close:hover{
+    color: grey;
+}
+/* <div id="pop">
+     <form method="POST">
+     <p id="close">+</p>
+     <?php
+     if(isset($_POST['modal'])){
+       $name=$_POST['name'];
+       $email=$_POST['email'];
+       $enquiries=$_POST['enquiries'];
+     }
+     ?>
+        Name:</br><input type="text" name="name" value="<?php echo $name; ?>" ></br>
+        Email:</br><input type="text" name="email" value="<?php echo $email; ?> "></br>
+        Enquirie:</br><input type="text" name="enquiries" value="<?php echo $enquiries; ?>" ></br>
+        Response:</br><input type="text" name="response">
+        </br><input type="submit" name="submit" >
+     </form>
+   </div> */
+
+
+
+
+    /* <input class="hide" type="text" name="name" value="<?php echo $name; ?>"> -->
+                             <input class="hide" type="text" name="enquiries" value="<?php echo $enquiries; ?>"> 
+                             <input class="hide" type="text" name="email" value="<?php echo $email; ?>">  */

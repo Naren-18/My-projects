@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript basics</h1>
+    <hr>
+    <h3>Change text</h3>
+    <p id="demo">This is the first line</p>
+    <button type="button" onclick='document.getElementById("demo").innerHTML="Hello world"' >Click this</button>
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "This is the first line"' >Goback</button>
+    <hr>
+    <h3>Change pic</h3>
+    <img id="image" src="img/box3.png" alt="">
+    <hr>
+    <button onclick="document.getElementById('image').src='img/box1.png'">Change </button>
+    <button onclick="document.getElementById('image').src='img/box2.png'">Again</button>
+    <hr>
+    <h3>Change CSS</h3>
+    <p id="font">Javascript is a very important language in todays world </p>
+    <button id="font1" onclick="document.getElementById('font').style.fontSize='35px'">Change</button>
+    <button id="font2" onclick="document.getElementById('font').style.fontSize='20px'">Undo</button>
+    <hr>
+    <h3>Hide Elements</h3>
+    <p id="hide">In earlier days Javascript is only as client side scriting language.</p>
+    <button onclick="document.getElementById('hide').style.display='none'">Hide</button>
+    <button onclick="document.getElementById('hide').style.display='flex'">Show</button>
+    <hr>
+    <H2>Craete an account</H2>
+    <input id="user1" type="text" placeholder="Username" ><br><br>
+    <input id="user2" type="text" placeholder="Conform Username" ><br><br>
+    <input id="password" type="password" placeholder="Password" ><br><br>
+    <button onclick="fn1()">Submit</button>
+    <script >
+        function fn1(){
+            var user1=document.getElementById("user1").value;
+            var user2=document.getElementById("user2").value;
+            var pass=document.getElementById("password").value;
+            alert("Username is "+ user1+"::"+"Password is "+pass);
+        }
+    </script>
+    <hr>
+    <script>
+        function fn2(){
+            var r1=document.getElementById("rd1").value;
+            document.write(r1);
+        }
+    </script>
+    <input type="radio" name="1" value="1" id="rd1">Yes
+    <input type="radio" name="1" value="2" id="rd2">No<br>
+    <button onclick="fn2()">Submit</button><br><br>
+    
+    <select name="select" id="select">
+        <option value="Iphone">Iphone</option>
+        <option value="Redmi">Redmi</option>
+        <option value="Oppo">Oppo</option>
+    </select><br><br>
+    <button onclick="fun3()">Go</button><br><br>
+    <script>
+        function fn3(){
+            // var select = document.getElementById("select").options[select.selectedIndex].value;
+            // document.write(select);
+            document.write("r1");
+        }
+    </script>
+    <script>
+        function mobile(brand,model,prize){
+            this.brand=brand;
+            this.model=model;
+            this.prize=prize;
+            this.full= function()
+            {
+                document.write("<h3>The mobile details are </h3");
+            }
+        }
+        var mob1=new mobile("Apple","12pro","RS-120000/-");
+        var mob2=new mobile("Assus","Notebook","RS-140000/-");
+        document.write("All Brands are::  "+mob1.brand+"  and  "+mob2.brand)
+    </script>
+    <H3>Form Validations</H3>
+    <script>
+        function validate(){
+            // Mobile Number validation
+            var number= document.getElementById("phone").value;
+            var validation=/^[6-9][0-9]{9}$/;
+            if(validation.test(number))
+            {
+                document.getElementById("valid").style.visibility="visible";
+            }
+            else{
+                document.getElementById("invalid").style.visibility="visible";
+
+            }
+            // Email validation
+            var email=document.getElementById("email").value;
+            var mail_validate=/^([A-Za-z0-9\.\-]+)@([a-z0-9]+).([a-z]{2,5})(.[a-z]{1,3})?$/;
+                                                                                         
+            if(mail_validate.test(email))
+            {
+                document.getElementById("evalid").style.visibility="visible";    
+            }
+            else
+            {
+                document.getElementById("einvalid").style.visibility="visible";
+            }
+            // username and password validation
+            var uname= document.getElementById("uname").value;
+            var pass= document.getElementById("pass").value;
+            var len = /^([A-Z])([a-z0-9]{6,20}+)/;
+
+            if(uname!="" && pass!="")
+            {
+                document.getElementById("einvalid").style.visibility="visible";
+
+            }
+            else{
+                alert("Fill the deatails First"); 
+            }
+        }
+    </script>
+    
+    <!-- <form > -->
+        <input type="text" name="email" id="email" placeholder="Email">
+        <label id="einvalid" style="color: red;visibility: hidden;font-weight: bold;">In Valid</label>
+        <label id="evalid" style="color: green;visibility: hidden;font-weight: bold;">Valid</label><br><br>
+        <input type="number" name="phone" id="phone" placeholder="Cell Number">
+        <label id ="invalid" style="color: red;visibility: hidden;font-weight: bold;">In Valid</label>
+        <label id ="valid" style="color: green;visibility: hidden;font-weight: bold;">Valid</label>
+        <br><br>
+        <input type="text" name="uname" id="uname" placeholder="Username">
+        <label id ="uinvalid" style="color: red;visibility: hidden;font-weight: bold;">In Valid</label>
+        <label id ="uvalid" style="color: green;visibility: hidden;font-weight: bold;">Valid</label><br><br>
+        <input type="password" name="cuname" id="pass" placeholder="Password">
+        <label id ="pinvalid" style="color: red;visibility: hidden;font-weight: bold;">In Valid</label>
+        <label id ="pvalid" style="color: green;visibility: hidden;font-weight: bold;">Valid</label><br><br>
+        <button onclick="validate()" type="submit">Submit</button>
+    <!-- </form> -->
+</body>
+</html>

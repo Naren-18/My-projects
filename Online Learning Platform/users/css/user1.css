@@ -1,0 +1,347 @@
+/* page wrap */
+
+
+#deatails{
+    color: brown;
+    background: azure;
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+body{
+    margin:0px 0px;
+    height: 100%;
+}
+.back{
+position: absolute;
+width: 100%;
+opacity: .8;
+height: 100%;
+z-index:-1;
+}
+
+.logo{
+    width: 217px;
+    position: relative;
+    left: 79px;
+    top: 9px;
+}
+button{
+    position: relative;
+    float: right;
+    left: -35px;
+    top: -30px;
+    background: black;
+    font-size: 16px;
+}
+button a{
+    text-decoration:none;
+    color: wheat;
+    font-family: emoji;
+    font-weight: bold;
+}
+/* nav bar */
+.nav{
+    background-color: #a487deb8;
+    position: relative;
+    left: 31%;
+    width: 501px;
+    height: 97px;
+    border: 2px solid;
+    border-radius: 10px;
+
+}
+.nav h2{
+    text-align: center;
+    color: black;
+    text-shadow: 2px 1.5px blanchedalmond;
+    font-size: xx-large;
+}
+
+
+.card{
+    position: relative;
+    left: 439px;
+    bottom: 69px;
+    cursor: pointer;
+}
+
+.info{
+    position: absolute;
+    line-height: 2px;
+    top: 116px;
+}
+.inicon{
+    position: absolute;
+    left: 249px;
+    top: -12px;
+}
+
+
+.popimg{
+    position: relative;
+    opacity: .7;
+    width: 361px;
+}
+
+
+/* Payment page */
+
+.pay:hover{
+    color: #f3912e;
+
+    cursor: pointer;
+}
+.pay:active {
+    background-color: grey;
+    box-shadow: 0 5px #814100;
+    transform: translateY(4px);
+  }
+
+  #learn{
+    position: absolute;
+    background: #e2b433c9;
+    left: 6px;
+    width: 207px;
+    height: 160px;
+    top: 172px;
+    border: 2px solid;
+
+}
+#learn button{
+    color: #000000;
+    background-color: #00ffac;
+    padding: 1px 5px;
+    cursor: pointer;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+#learn button:hover{
+background-color: lightgrey;
+}
+
+.pdf{
+position:absolute;
+width: 1348px;
+height: 1000px;
+top: 1px;
+}
+.cross{
+position: absolute;
+background: black;
+color: white;
+font-size: 20px;
+padding: 3px 6px;
+border: 2px solid;
+border-radius: 5px;
+left: 80%;
+top: 59px;
+cursor:pointer;
+}
+#file{
+    position: relative;
+    left: -554px;
+    top: 87px;
+    display: none;
+}
+#fil{
+    color: #000000;
+background-color: whitesmoke;
+padding: 1px 5px;
+cursor: pointer;
+border: 2px solid black;
+border-radius: 5px;
+font-weight: bold;
+left: -46%;
+top: 100px;
+}
+  
+.desc{
+    background-color: #f5deb3a6;
+    width: 692px;
+    height: 453px;
+    position: relative;
+    left: 346px;
+    border: 2px solid gold;
+    top: 10px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    font-family: monospace;
+    color: darkred;
+    text-decoration: underline;
+}
+.para{
+    font-size: 20px;
+    margin: 34px 69px;
+    text-align: center;
+}
+/* Learn section  */
+
+
+.btn1{
+    position: relative;
+    left: -46px;
+    top: 89px;
+    }
+    .btn2{
+    position: relative;
+    left: 57px;
+        top: 50px;
+    }
+    .btn3{
+    position: relative;
+    left: -26px;
+        top: -13px;
+    }
+        .video{
+            position:absolute;
+            left:28%;
+            top:28%;
+        }
+        .btn4{
+            position:absolute;
+            left: 55px;
+        top: 82%;
+        }
+        .body{
+            font: 14px Georgia, serif;
+        background: #e2e290;
+        position: absolute;
+        width: 100%;
+        bottom: -924px;
+        display:none;
+        
+        }
+        #take{
+            background: white;
+        position: relative;
+        left: 33%;
+        top: 34px;
+        width: 433px;
+        padding: 19px 21px;
+        border: 2px solid;
+        border-radius: 8px;
+        height: 78px;
+        
+        }
+        .conform p{
+            position: relative;
+            left: 69px;
+            top: -17px;
+            font-weight: bold;
+            font-size: 23px;
+            margin: 20px 0px;
+        }
+        .conform button{
+            color: black;
+        background-color: whitesmoke;
+        padding: 1px 5px;
+        cursor: pointer;
+        border: 2px solid black;
+        border-radius: 5px;
+        font-weight: bold;
+        position: relative;
+        left: -138px;
+        top: -6px;
+        }
+        .conform button:hover{
+            background:grey;
+            color:white;
+        }
+ 
+/* Alerts */
+
+
+
+
+.alert3{
+    position: absolute;
+    left: 40%;
+    font-size: 18px;
+    color: white;
+    top: 215px;
+    opacity: .99;
+    font-weight: bold;
+    background: #00ff4c94;
+    padding: 8px 16px;
+    border-radius: 14px;
+}
+.alert4{
+    position: absolute;
+    left: 27%;
+    font-size: 13px;
+    color: white;
+    top: 38px;
+    opacity: .99;
+    font-weight: bold;
+    background: green;
+    padding: 8px 16px;
+    border-radius: 14px;
+
+}
+.btn{
+    background: black;
+    position: relative;
+    left: -731px;
+    top: 326px;
+}
+.done{
+    background: black;
+    color:white;
+    position: relative;
+    left: -44%;
+    top: 100px;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+/* print
+ */
+ 
+#printableArea{
+    display: none;
+    position: absolute;
+    left: 276px;
+    top: 19px;
+    
+}
+
+#butt{
+    position: absolute;
+    height: 24px;
+    top: 585px;
+    left: 607px;
+    color: white;
+    border-radius: 6px;
+    font-size: 17px;
+    background: black;
+    display:none;
+    cursor: pointer;
+}
+#but{
+    position: absolute;
+    height: 24px;
+    top: 583px;
+    left: 721px;
+    color: white;
+    border-radius: 6px;
+    font-size: 17px;
+    background: black;
+    cursor: pointer;
+    display:none;
+}
+.elements{
+    position: absolute;
+    left: 337px;
+    top: 230px;
+}
+.elements p{
+    font-size: 20px;
+    margin: 13px 0px;
+    position: relative;
+}
+
+

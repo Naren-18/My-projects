@@ -1,0 +1,97 @@
+body{
+    margin:0px 0px;
+    padding:0px 0px;
+}
+.back{
+position: absolute;
+width: 100%;
+opacity: .8;
+height: 657px;
+}
+
+
+
+.logo{
+    width: 217px;
+    position: relative;
+    left: 79px;
+    top: 9px;
+}
+
+
+
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 0px 21px;
+    position: relative;
+    left: 333px;
+    top: -33px;
+    list-style: none;
+
+}
+nav ul li a{
+    font-family: 'Arvo', serif;
+    font-size: 19px;
+    color: lightblue;
+    text-decoration: none;
+    
+
+}
+nav ul li a:hover{
+    color: rgb(97, 59, 59);
+  
+}
+
+
+.enter{
+    background: #fcffff9e;
+    opacity: .99;
+    position: relative;
+    left: 38%;
+    top: 140px;
+    width: 350px;
+    height: 277px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enter label{
+    font-size: 23px;
+}
+.enter h3{
+    font-size: 2rem;
+}
+.enter input{
+    padding: 4px 7px;
+    background: #00000061;
+    color: white;
+    font-family: 'Arvo', serif;
+}
+.enter button{
+    font-size: 17px;
+    margin: 22px 2px;
+    padding: 7px 19px;
+    border: none;
+    background-color: #000000a6;
+    color: #fff;
+    cursor: pointer;
+    font-family: auto;
+}
+
+
+.enter button:hover{
+
+    background-color:#215a3da6;
+}
+.enter button:active {
+  background-color: #215a3da6;
+  box-shadow: 0 5px  #040c08a6;
+  transform: translateY(4px);
+}
+

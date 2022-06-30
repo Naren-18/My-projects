@@ -1,0 +1,185 @@
+ 
+#pop{
+    background-color: #96d4bd;;
+    width: 361px;
+    height: 374px;
+    position: relative;
+    left: 939px;
+    bottom: 75px;
+    display: none;
+    border: 2px solid;
+}
+#pop p{
+    font-size: 41px;
+    position: relative;
+    top: -46px;
+    left: 6px;
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#pop h3{
+    position: relative;
+    top: -82px;
+    left: 17px
+}
+        .btn{
+    position: relative;
+    float: right;
+    left: -599px;
+    top: 109px;
+    background: black;
+    font-size: 20px;
+    color: bisque;
+    padding: 5px 12px;
+    border-radius: 8px;
+}
+.btn:hover{
+    color: rgb(192, 165, 116);
+
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: grey;
+    box-shadow: 0 5px rgb(114, 80, 16);;
+    transform: translateY(4px);
+  }
+
+.payment{
+        background-color: #d7fbff;
+    width: 423px;
+    height: 372px;
+    position: absolute;
+    left: 475px;
+    border: 2px solid;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 22px;
+    top: 213px;
+}
+
+.payment form{
+    position:relative;
+    top: -37px;
+    line-height: 30px;
+}
+.payment form input{
+    border: 2px solid black;
+    text-align: center;
+    font-size: 19px;
+    background-color: #9cf7bce6;
+    border-radius: 4px;
+    padding: 1px 0px;
+}
+.pay{
+    color: #000000;
+    position: relative;
+    left: -185px;
+    top: -9px;
+    padding: 3px 11px;
+    cursor: pointer;
+    background: #276b6d;
+    font-weight: bold;
+}
+.pay:hover{
+    color: #f3912e;
+
+    cursor: pointer;
+}
+.pay:active {
+    background-color: grey;
+    box-shadow: 0 5px #814100;
+    transform: translateY(4px);
+  }
+#pay{
+    position: relative;
+    left: 21px;
+    background: #a2a0a1;
+    border: 2px solid;
+    font-size: 20px;
+    top: 7px;
+}
+h4{
+    text-align: center;
+    font-size: 26px;
+    position: relative;
+    top: -21px;
+    color: black;
+    font-weight: bold;
+}
+
+.alert3{
+    position: absolute;
+    left: 44%;
+    font-size: 18px;
+    color: white;
+    top: 207px;
+    opacity: .99;
+    font-weight: bold;
+    background: #04ff00a1;
+    padding: 8px 16px;
+    border-radius: 14px;
+}
+/* edit section */
+.p button{
+    color: #fbfbfb;
+    cursor: pointer;
+    background: black;
+    font-weight: bold;
+    height: 28px;
+    position: relative;
+    left: -107px;
+    top: 219px;
+}
+.p button:hover{
+    color:wheat;
+}
+#edit{
+    display:none;
+
+}
+.fedit{
+    background: azure;
+    padding: 31px 46px;
+    position: relative;
+    left: 488px;
+    bottom: -66px;
+    border: 4px solid;
+    font-size: 19px;
+}
+.fedit input{
+    font-size: 18px;
+    border: 2px solid;
+}
+.fedit h2{
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+    color: brown;
+    margin-top: -1px;
+}
+.fedit button{
+    position: relative;
+    left: -141px;
+    top: -5px;
+    color: white;
+    cursor:pointer;
+}
+.fedit button:hover{
+    background:grey;
+    color:black;
+    font-weight:bold;
+}
+.fedit h4{
+    position: relative;
+    left: 183px;
+    font-size: 21px;
+    top: -32px;
+    cursor:pointer;
+    color: black;
+}
+.fedit h4:hover{
+    color:grey;
+}

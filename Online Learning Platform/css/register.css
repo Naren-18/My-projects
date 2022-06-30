@@ -1,0 +1,215 @@
+body{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.back{
+    position: absolute;
+    width: 100%;
+    opacity: .8;
+    height: 704px;
+}
+
+.logo{
+    width: 217px;
+    position: relative;
+    left: 79px;
+    top: 9px;
+}
+
+.alert1{
+    position: relative;
+    left: 3%;
+    font-size: 20px;
+    color: white;
+    top: 143px;
+    opacity: .99;
+    font-weight: bold;
+    background: #27b325ad;
+    padding: 8px 16px;
+    border-radius: 14px;
+    width: 214px;
+}
+.alert2{
+    position: absolute;
+    left: 72%;
+    font-size: 18px;
+    color: white;
+    top: 67px;
+    opacity: .99;
+    font-weight: bold;
+    background: #ff2f2f94;
+    padding: 8px 16px;
+    border-radius: 14px;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 0px 21px;
+    position: relative;
+    left: 333px;
+    top: -33px;
+}
+nav ul li a{
+    font-family: 'Arvo', serif;
+    font-size: 19px;
+    color: lightblue;
+    
+
+}
+nav ul li a:hover{
+    color: rgb(97, 59, 59);
+  
+}
+h1{
+    font-size: 29px;
+    text-align: center;
+    font-weight: bold;
+    color: aqua;
+    opacity: .99;
+    font-family: monospace;
+    text-decoration: underline;
+    position: relative;
+    top: -15px;
+}
+
+.register{
+    opacity: .99;
+}
+.register form{
+    font-size: 23px;
+    margin: 18px 0px;
+    font-style: italic;
+    background: #ffe8c99e;
+    position: relative;
+    left: 314px;
+    width: 733px;
+    text-align: center;
+    height: 522px;
+    border-radius: 13px;
+    top: -17px;
+    border: 2px solid white;
+}
+
+.register form input,.register form select,.register form textarea{
+    background-color: rgb(255, 255, 255);
+    padding: 5px 9px;
+    border: 2px solid;
+    border-radius: 9px;
+    font-size: 17px;
+    opacity: .999;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.register form option{
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#btn{
+    position: relative;
+    top: -141px;
+    border: 2px solid;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    cursor: pointer;
+    background-color: #00000017;
+}
+
+
+#btn:hover{
+
+    background-color:rgb(113, 177, 199);
+}
+#btn:active {
+  background-color: rgb(51, 144, 175);
+  box-shadow: 0 5px rgb(15, 99, 128);
+  transform: translateY(4px);
+}
+
+.form1{
+    position: relative;
+    left: -152px;
+    top: 14px;
+}
+.form2{
+    position: relative;
+    left: 201px;
+    bottom: 316px;
+}
+/* 
+
+<?php
+if(isset($_POST['submit'])){
+
+    if($_POST['cource']=="C language"){
+        
+    echo "<input class='hid' type='text' name='branch' value='2000'>";  
+
+    }
+}
+?>
+ <?php
+if(isset($_POST['submit'])){
+
+    if($_POST['cource']=="C++ language"){
+        
+    echo "<input class='hid' type='text' name='branch' value='3000'>";  
+
+    }
+}
+?>
+ <?php
+if(isset($_POST['submit'])){
+
+    if($_POST['cource']=="Java"){
+        
+    echo "<input class='hid' type='text' name='branch' value='5000'>";  
+
+    }
+}
+?>
+
+
+            ?> */
+            /* <!-- <div id="printableArea" class="print">
+            <img  src="img/Logo.png" alt="">
+            <strong class='alert1'>Registration Completed</strong> 
+            <ul>
+                <li>Name: </li>
+                <li>Username:</li>
+                <li>Age:</li>
+                <li>Phone Number:</li>
+                <li>Email:</li>
+                <li>Address</li>
+                <li>Cource:</li>
+                <li>Branch:</li>
+                
+            </ul>
+            <button onclick="printDiv('printableArea')" > Print</button>
+            <button id="close">Cancel</button>
+         </div>
+        
+        
+         <script>
+            function printDiv(divName) {
+             var printContents = document.getElementById(divName).innerHTML;
+             var originalContents = document.body.innerHTML;
+        
+             document.body.innerHTML = printContents;
+        
+             window.print();
+        
+             document.body.innerHTML = originalContents;
+        
+        }
+        document.querySelector('#close').addEventListener('click', function () {
+                    let cross = document.querySelector('.print');
+                    cross.style.display = 'none';
+                });
+        </script> --> */
